@@ -1,0 +1,12 @@
+h3 {
+    color: red;
+}
+body {
+    text-align: center;
+    background-image: url(../boekenhandel/backgroundimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+body {
+    background-image: url(../boekenhandel/backgroundimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.buttons {
+    width: 5000px;
+    height: 100px;
+    
+}
+

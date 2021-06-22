@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-image: url(../boekenhandel/backgroundimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.infoboeken
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;     
+    background-color: lightgrey;     
+  }
+  tr:nth-child(even) {
+    background-color: white;
+
+  }
