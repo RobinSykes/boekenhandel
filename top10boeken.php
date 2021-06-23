@@ -23,15 +23,15 @@ $con = new PDO($conStr, $username, $password);
 $stmt = "SELECT * FROM top10 WHERE rating > 0 ORDER BY rating";
 $sth = $con->prepare($stmt);
 $sth->execute();
-
-while($row = $sth->fetch()) {
-    //echo $row['id'];
-    //echo ',';
-    echo $row['naam'];
-    echo ', ';
-    echo $row['auteur'];
-    echo "<br>";
-}
 ?>
+<?php while($row = $sth->fetch()) { ?>
+        <div>
+            <td><?php echo $row["naam"]; ?></td>
+            <td><?php echo $row["auteur"]; ?></td>
+            <td><a href="informatieboeken.php?id=<?php echo $row["id"]?>">informatie</a></td>
+        </div>
+    <?php 
+} ?>
+
 </body>
 </html>

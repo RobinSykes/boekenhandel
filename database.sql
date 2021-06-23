@@ -10,21 +10,21 @@ CREATE TABLE top10 (
 );
 
 INSERT INTO top10 (id, naam, auteur, rating)
-values ('1','<a href="informatieboeken.php" id="informatie">derksen</a>','Michel van Egmond, Antoinnette Scheulderman', 1),
- ('2','<a href="informatieboeken.php" id="informatie">de zevende zus</a>','Lucinda Riley', 2),
- ('3','<a href="informatieboeken.php" id="informatie">De jongen de mol de vos en het paard</a>','Charlie Mackesy Arthur Japin', 3),
- ('4','<a href="informatieboeken.php" id="informatie">ik ga leven</a>','Lale Gül', 4),
- ('5','<a href="informatieboeken.php" id="informatie">De dingen die je alleen ziet als je er de tijd voor neemt</a>','Haemin Sunim', 5),
- ('6','<a href="informatieboeken.php" id="informatie">Het geschenk</a>','edith eger', 6),
- ('7','<a href="informatieboeken.php" id="informatie">De heks van Limbricht</a>','Susan Smit', 7),
- ('8','<a href="informatieboeken.php" id="informatie">De keuze</a>','Edith Eva Eger', 8),
- ('9','<a href="informatieboeken.php" id="informatie">Master Your Mindset</a>','Michael Pilarczyk', 9),
- ('10','<a href="informatieboeken.php" id="informatie">Afvallen met gezond en vooral lekker eten</a>','Natalia Rakhorst Walter Rakhorst', 10),
- ('11','<a href="informatieboeken.php" id="informatie">smokey goodness</a>','Jord Althuizen',0),
- ('12','<a href="informatieboeken.php" id="informatie">socrates op sneakers</a>','elke wis',0),
- ('13','<a href="informatieboeken.php" id="informatie">het geschenk</a>','edith eger',0),
- ('14','<a href="informatieboeken.php" id="informatie">Patronen doorbreken</a>','Hannie van Genderen, Gitta Jacob',0),
- ('15','<a href="informatieboeken.php" id="informatie">De meeste mensen deugen</a>','rutger bregman',0);
+values ('1','derksen','Michel van Egmond, Antoinnette Scheulderman', 1),
+ ('2','de zevende zus','Lucinda Riley', 2),
+ ('3','De jongen de mol de vos en het paard','Charlie Mackesy Arthur Japin', 3),
+ ('4','ik ga leven','Lale Gül', 4),
+ ('5','De dingen die je alleen ziet als je er de tijd voor neemt','Haemin Sunim', 5),
+ ('6','Het geschenk','edith eger', 6),
+ ('7','De heks van Limbricht','Susan Smit', 7),
+ ('8','De keuze','Edith Eva Eger', 8),
+ ('9','Master Your Mindset','Michael Pilarczyk', 9),
+ ('10','Afvallen met gezond en vooral lekker eten','Natalia Rakhorst Walter Rakhorst', 10),
+ ('11','smokey goodness','Jord Althuizen',0),
+ ('12','socrates op sneakers','elke wis',0),
+ ('13','het geschenk','edith eger',0),
+ ('14','Patronen doorbreken','Hannie van Genderen, Gitta Jacob',0),
+ ('15','De meeste mensen deugen','rutger bregman',0);
 SELECT * FROM top10
 WHERE rating > 0
 ORDER BY rating

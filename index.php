@@ -10,7 +10,6 @@
 <body>
     <div class="buttons">
         <a href="top10boeken.php" id="top10">top 10 boeken</a>
-        <a href="informatieboeken.php" id="informatie">informatie boeken</a>
     </div>
 </body>
 </html>
